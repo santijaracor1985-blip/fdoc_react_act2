@@ -7,7 +7,7 @@ import FichaProducto from "./components/FichaProducto";
 import AvisoInline from "./components/AvisoInline";
 import BadgeEstado from "./components/BadgeEstado";
 
-const App = () => (
+const Page = () => (
   <div style={{ padding: "20px" }}>
     <h1>Mi Proyecto React</h1>
     <PerfilGlobal />
@@ -17,4 +17,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default Page;
